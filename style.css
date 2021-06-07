@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    display: flex;
+    margin: 250px auto;
+    position: relative;
+    top: 5px;
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    color: white;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#box1, #box2, #box3, #box4, #box5, #box6, #box7, #box8, #box9, #box10{
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+}
